@@ -1,0 +1,4 @@
+#Thu Aug 09 19:19:48 CST 2018
+base.0=C\:\\opt\\ictApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\opt\\ictApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
