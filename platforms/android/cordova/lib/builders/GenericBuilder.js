@@ -89,6 +89,7 @@ function findOutputApksHelper (dir, build_type, arch) {
         // find all APKs
         return file.match(/\.apk?$/i);
     }).filter(function (candidate) {
+        events.emit('log', candidate);
         var apkName = path.basename(candidate);
         // Need to choose between release and debug .apk.
         if (build_type === 'debug') {
